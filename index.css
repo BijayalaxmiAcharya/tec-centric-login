@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+h3::before {
+    content: "";
+    width: 100px;
+    color: rgb(23, 40, 82);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.loginbox h3 {
+    color: black;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #143764;
+    font-weight: bolder;
+}
+
+#input {
+
+    width: fit-content;
+    /* border-radius: 15px; */
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #143764;
+
+
+
+}
+
+#input input {
+    border: 1px solid black;
+    border: none;
+    outline: none;
+
+}
+
+/* #input:focus-within{
+border: 2px solid rgb(205, 59, 6);
+
+} */
+
+#input i {
+    color: gray;
+    padding-right: 10px;
+
+}
+
+.login {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .left,
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.loginbox {
+    height: fit-content;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    /* border-radius: 15px; */
+    /* box-shadow: 2px 4px 5px 5px rgb(21, 15, 15); */
+
+}
+
+/* .loginbox:hover {
+    transform: scale(1.1);
+} */
+
+/* .loginbox button{
+     margin: 20px;
+     padding: 5px 20px;  
+    border-radius: 8px;
+    width: 200px;
+    background-color: blue;
+} */
+
+.loginbox,
+label,
+#input {
+    margin: 10px;
+
+}
+
+.loginbox label {
+    text-align: left;
+    width: 100%;
+
+}
+
+/* .login .left img{
+    height: 80vh;
+    width: 100%;
+
+} */
+.loginbox #Login {
+    background-color: blue;
+    /* color: black; */
+    /* border-color: rgb(8, 42, 105); */
+}
+
+/* .loginbox button:hover{
+   background-color: black;
+   color: white;
+} */
+
+.loginbox button {
+    width: 250px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin: 25px 0;
+    color: #fff;
+    cursor: pointer;
+    background: #143764;
+
+}
+
+.loginbox label {
+    color: #143764;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+
